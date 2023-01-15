@@ -1,0 +1,679 @@
+Archive member included because of file (symbol)
+
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              ./HAL/TempSensor/TempSensor_Program.o (__mulsi3)
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                              ./MCAL/DIO/Dio_Program.o (__udivmodqi4)
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                              ./MCAL/Timer_0/Timer_0_Program.o (__divmodhi4)
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              ./HAL/TempSensor/TempSensor_Program.o (__udivmodsi4)
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                              ./HAL/LCD/Lcd_Program.o (__divmodsi4)
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./HAL/KeyPad/KeyPad_Program.o (__do_copy_data)
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./MCAL/Timer_1/Timer_1_Program.o (__do_clear_bss)
+d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+Ext_Int_Callback    0x2               ./MCAL/Ext_Int/Ext_Int_Program.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./MCAL/Timer_1/Timer_1_Program.o
+LOAD ./MCAL/Timer_0/Timer_0_Program.o
+LOAD ./MCAL/GIE/GIE_Program.o
+LOAD ./MCAL/Ext_Int/Ext_Int_Program.o
+LOAD ./MCAL/DIO/Dio_Program.o
+LOAD ./MCAL/ADC/ADC_Program.o
+LOAD ./HAL/TempSensor/TempSensor_Program.o
+LOAD ./HAL/Ssd/Ssd_Program.o
+LOAD ./HAL/PushButton/PushButton_Program.o
+LOAD ./HAL/LED/led_program.o
+LOAD ./HAL/LCD/Lcd_Program.o
+LOAD ./HAL/KeyPad/KeyPad_Program.o
+LOAD ./HAL/BUZZER/Buz_program.o
+LOAD ./APP/main.o
+LOAD d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x152e
+ *(.vectors)
+ .vectors       0x00000000       0x54 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_3
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./MCAL/Timer_1/Timer_1_Program.o
+ .text          0x00000092        0x0 ./MCAL/Timer_0/Timer_0_Program.o
+ .text          0x00000092        0x0 ./MCAL/GIE/GIE_Program.o
+ .text          0x00000092        0x0 ./MCAL/Ext_Int/Ext_Int_Program.o
+ .text          0x00000092        0x0 ./MCAL/DIO/Dio_Program.o
+ .text          0x00000092        0x0 ./MCAL/ADC/ADC_Program.o
+ .text          0x00000092        0x0 ./HAL/TempSensor/TempSensor_Program.o
+ .text          0x00000092        0x0 ./HAL/Ssd/Ssd_Program.o
+ .text          0x00000092        0x0 ./HAL/PushButton/PushButton_Program.o
+ .text          0x00000092        0x0 ./HAL/LED/led_program.o
+ .text          0x00000092        0x0 ./HAL/LCD/Lcd_Program.o
+ .text          0x00000092        0x0 ./HAL/KeyPad/KeyPad_Program.o
+ .text          0x00000092        0x0 ./HAL/BUZZER/Buz_program.o
+ .text          0x00000092        0x0 ./APP/main.o
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00000092                . = ALIGN (0x2)
+ *(.text.*)
+ .text.M_Timer_1_void_Init
+                0x00000092       0x34 ./MCAL/Timer_1/Timer_1_Program.o
+                0x00000092                M_Timer_1_void_Init
+ .text.M_Timer_1_void_ICU_SetCallBack
+                0x000000c6        0xa ./MCAL/Timer_1/Timer_1_Program.o
+                0x000000c6                M_Timer_1_void_ICU_SetCallBack
+ .text.M_Timer_1_void_ICU_IntEnable
+                0x000000d0        0xc ./MCAL/Timer_1/Timer_1_Program.o
+                0x000000d0                M_Timer_1_void_ICU_IntEnable
+ .text.M_Timer_1_void_ICU_IntDisable
+                0x000000dc        0xc ./MCAL/Timer_1/Timer_1_Program.o
+                0x000000dc                M_Timer_1_void_ICU_IntDisable
+ .text.M_Timer_1_u16_ICU_InputRead
+                0x000000e8        0xa ./MCAL/Timer_1/Timer_1_Program.o
+                0x000000e8                M_Timer_1_u16_ICU_InputRead
+ .text.M_Timer_1_void_ICU_SetTrigger
+                0x000000f2       0x20 ./MCAL/Timer_1/Timer_1_Program.o
+                0x000000f2                M_Timer_1_void_ICU_SetTrigger
+ .text.M_Timer_1_void_ICU_Init
+                0x00000112        0x8 ./MCAL/Timer_1/Timer_1_Program.o
+                0x00000112                M_Timer_1_void_ICU_Init
+ .text.__vector_6
+                0x0000011a       0x4e ./MCAL/Timer_1/Timer_1_Program.o
+                0x0000011a                __vector_6
+ .text.M_Timer_0_void_Init
+                0x00000168       0x1e ./MCAL/Timer_0/Timer_0_Program.o
+                0x00000168                M_Timer_0_void_Init
+ .text.M_Timer_0_void_Start
+                0x00000186       0x12 ./MCAL/Timer_0/Timer_0_Program.o
+                0x00000186                M_Timer_0_void_Start
+ .text.M_Timer_0_void_Stop
+                0x00000198       0x18 ./MCAL/Timer_0/Timer_0_Program.o
+                0x00000198                M_Timer_0_void_Stop
+ .text.M_Timer_0_void_EnableInt
+                0x000001b0       0x22 ./MCAL/Timer_0/Timer_0_Program.o
+                0x000001b0                M_Timer_0_void_EnableInt
+ .text.M_Timer_0_void_DisableInt
+                0x000001d2       0x22 ./MCAL/Timer_0/Timer_0_Program.o
+                0x000001d2                M_Timer_0_void_DisableInt
+ .text.M_Timer_0_void_SetTime
+                0x000001f4        0x2 ./MCAL/Timer_0/Timer_0_Program.o
+                0x000001f4                M_Timer_0_void_SetTime
+ .text.M_Timer_0_void_SetFastPWM
+                0x000001f6       0x1c ./MCAL/Timer_0/Timer_0_Program.o
+                0x000001f6                M_Timer_0_void_SetFastPWM
+ .text.M_Timer_0_void_SetPhaseCorrectPWM
+                0x00000212        0x2 ./MCAL/Timer_0/Timer_0_Program.o
+                0x00000212                M_Timer_0_void_SetPhaseCorrectPWM
+ .text.M_Timer_0_INT_void_SetCallback
+                0x00000214       0x12 ./MCAL/Timer_0/Timer_0_Program.o
+                0x00000214                M_Timer_0_INT_void_SetCallback
+ .text.__vector_11
+                0x00000226       0xaa ./MCAL/Timer_0/Timer_0_Program.o
+                0x00000226                __vector_11
+ .text.__vector_10
+                0x000002d0       0xa2 ./MCAL/Timer_0/Timer_0_Program.o
+                0x000002d0                __vector_10
+ .text.M_GIE_void_Enable
+                0x00000372        0xc ./MCAL/GIE/GIE_Program.o
+                0x00000372                M_GIE_void_Enable
+ .text.M_GIE_void_Disable
+                0x0000037e        0xc ./MCAL/GIE/GIE_Program.o
+                0x0000037e                M_GIE_void_Disable
+ .text.M_Ext_Int_void_SetCallBack
+                0x0000038a        0xa ./MCAL/Ext_Int/Ext_Int_Program.o
+                0x0000038a                M_Ext_Int_void_SetCallBack
+ .text.__vector_2
+                0x00000394       0x4e ./MCAL/Ext_Int/Ext_Int_Program.o
+                0x00000394                __vector_2
+ .text.M_Ext_Int_void_Init
+                0x000003e2       0x60 ./MCAL/Ext_Int/Ext_Int_Program.o
+                0x000003e2                M_Ext_Int_void_Init
+ .text.M_Dio_pinMode
+                0x00000442      0x12a ./MCAL/DIO/Dio_Program.o
+                0x00000442                M_Dio_pinMode
+ .text.M_Dio_pinWrite
+                0x0000056c      0x12a ./MCAL/DIO/Dio_Program.o
+                0x0000056c                M_Dio_pinWrite
+ .text.M_Dio_pinRead
+                0x00000696       0x72 ./MCAL/DIO/Dio_Program.o
+                0x00000696                M_Dio_pinRead
+ .text.M_Dio_PinTogl
+                0x00000708       0x90 ./MCAL/DIO/Dio_Program.o
+                0x00000708                M_Dio_PinTogl
+ .text.M_ADC_void_Init
+                0x00000798       0x58 ./MCAL/ADC/ADC_Program.o
+                0x00000798                M_ADC_void_Init
+ .text.M_ADC_u16_Read
+                0x000007f0       0x1a ./MCAL/ADC/ADC_Program.o
+                0x000007f0                M_ADC_u16_Read
+ .text.H_TempSensor_u16_Read
+                0x0000080a       0x2a ./HAL/TempSensor/TempSensor_Program.o
+                0x0000080a                H_TempSensor_u16_Read
+ .text.H_TempSensor_void_Init
+                0x00000834        0x6 ./HAL/TempSensor/TempSensor_Program.o
+                0x00000834                H_TempSensor_void_Init
+ .text.Hal_Ssd_void_SsdDigitDisplay
+                0x0000083a      0x28a ./HAL/Ssd/Ssd_Program.o
+ .text.Hal_Ssd_void_SsdDisplay
+                0x00000ac4       0x76 ./HAL/Ssd/Ssd_Program.o
+                0x00000ac4                Hal_Ssd_void_SsdDisplay
+ .text.Hal_Ssd_void_SsdCountDown
+                0x00000b3a       0x16 ./HAL/Ssd/Ssd_Program.o
+                0x00000b3a                Hal_Ssd_void_SsdCountDown
+ .text.Hal_Ssd_void_SsdCountUp
+                0x00000b50       0x1a ./HAL/Ssd/Ssd_Program.o
+                0x00000b50                Hal_Ssd_void_SsdCountUp
+ .text.Hal_Ssd_void_SsdInit
+                0x00000b6a       0x4a ./HAL/Ssd/Ssd_Program.o
+                0x00000b6a                Hal_Ssd_void_SsdInit
+ .text.H_PushBubtton_void_PushButtonRead
+                0x00000bb4      0x11e ./HAL/PushButton/PushButton_Program.o
+                0x00000bb4                H_PushBubtton_void_PushButtonRead
+ .text.H_PushBubtton_void_PushButtonInit
+                0x00000cd2       0x40 ./HAL/PushButton/PushButton_Program.o
+                0x00000cd2                H_PushBubtton_void_PushButtonInit
+ .text.H_Led_void_LedBlinkOnce
+                0x00000d12       0x82 ./HAL/LED/led_program.o
+                0x00000d12                H_Led_void_LedBlinkOnce
+ .text.H_Led_void_LedBlinkTwice
+                0x00000d94       0x3a ./HAL/LED/led_program.o
+                0x00000d94                H_Led_void_LedBlinkTwice
+ .text.H_Led_void_LedOff
+                0x00000dce       0x2c ./HAL/LED/led_program.o
+                0x00000dce                H_Led_void_LedOff
+ .text.H_Led_void_LedOn
+                0x00000dfa       0x2c ./HAL/LED/led_program.o
+                0x00000dfa                H_Led_void_LedOn
+ .text.H_Led_void_LedTogl
+                0x00000e26       0x26 ./HAL/LED/led_program.o
+                0x00000e26                H_Led_void_LedTogl
+ .text.H_Led_void_LedInit
+                0x00000e4c       0x2c ./HAL/LED/led_program.o
+                0x00000e4c                H_Led_void_LedInit
+ .text.H_Lcd_void_LcdSendCharacter
+                0x00000e78       0xd8 ./HAL/LCD/Lcd_Program.o
+                0x00000e78                H_Lcd_void_LcdSendCharacter
+ .text.H_Lcd_void_LcdSendNumber
+                0x00000f50       0xe6 ./HAL/LCD/Lcd_Program.o
+                0x00000f50                H_Lcd_void_LcdSendNumber
+ .text.H_Lcd_void_LcdSendString
+                0x00001036       0x2a ./HAL/LCD/Lcd_Program.o
+                0x00001036                H_Lcd_void_LcdSendString
+ .text.H_Lcd_void_LcdSendCommand
+                0x00001060       0xd8 ./HAL/LCD/Lcd_Program.o
+                0x00001060                H_Lcd_void_LcdSendCommand
+ .text.H_Lcd_void_LcdGoTo
+                0x00001138       0x2a ./HAL/LCD/Lcd_Program.o
+                0x00001138                H_Lcd_void_LcdGoTo
+ .text.H_Lcd_void_LcdClear
+                0x00001162        0x8 ./HAL/LCD/Lcd_Program.o
+                0x00001162                H_Lcd_void_LcdClear
+ .text.H_Lcd_void_LcdInit
+                0x0000116a       0x50 ./HAL/LCD/Lcd_Program.o
+                0x0000116a                H_Lcd_void_LcdInit
+ .text.H_KeyPad_void_KeyPadRead
+                0x000011ba      0x10c ./HAL/KeyPad/KeyPad_Program.o
+                0x000011ba                H_KeyPad_void_KeyPadRead
+ .text.H_KeyPad_void_KeyPadInit
+                0x000012c6       0x62 ./HAL/KeyPad/KeyPad_Program.o
+                0x000012c6                H_KeyPad_void_KeyPadInit
+ .text.H_Buzzer_void_BuzTwice
+                0x00001328       0x5e ./HAL/BUZZER/Buz_program.o
+                0x00001328                H_Buzzer_void_BuzTwice
+ .text.H_Buzzer_void_BuzOnce
+                0x00001386       0x26 ./HAL/BUZZER/Buz_program.o
+                0x00001386                H_Buzzer_void_BuzOnce
+ .text.H_Buzzer_void_BuzOff
+                0x000013ac        0xa ./HAL/BUZZER/Buz_program.o
+                0x000013ac                H_Buzzer_void_BuzOff
+ .text.H_Buzzer_void_BuzOn
+                0x000013b6        0xa ./HAL/BUZZER/Buz_program.o
+                0x000013b6                H_Buzzer_void_BuzOn
+ .text.H_Buzzer_void_BuzTogl
+                0x000013c0        0x8 ./HAL/BUZZER/Buz_program.o
+                0x000013c0                H_Buzzer_void_BuzTogl
+ .text.H_Buzzer_void_BuzInit
+                0x000013c8        0xa ./HAL/BUZZER/Buz_program.o
+                0x000013c8                H_Buzzer_void_BuzInit
+ .text.A_Ext_Int_Excution
+                0x000013d2        0x8 ./APP/main.o
+                0x000013d2                A_Ext_Int_Excution
+ .text.A_Timer_0_IntExcution
+                0x000013da        0x8 ./APP/main.o
+                0x000013da                A_Timer_0_IntExcution
+ .text.main     0x000013e2       0x2a ./APP/main.o
+                0x000013e2                main
+ .text.libgcc   0x0000140c       0x3e d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x0000140c                __mulsi3
+ .text.libgcc   0x0000144a       0x18 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+                0x0000144a                __udivmodqi4
+ .text.libgcc   0x00001462       0x26 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x00001462                __divmodhi4
+                0x00001462                _div
+ .text.libgcc   0x00001488       0x44 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001488                __udivmodsi4
+ .text.libgcc   0x000014cc       0x36 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                0x000014cc                __divmodsi4
+ .text.libgcc   0x00001502        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00001502        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00001502        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00001502       0x28 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00001502                __udivmodhi4
+                0x0000152a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000152a        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x0000152a                exit
+                0x0000152a                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000152a        0x4 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000152e                _etext = .
+
+.data           0x00800060       0x10 load address 0x0000152e
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./MCAL/Timer_1/Timer_1_Program.o
+ .data          0x00800060        0x0 ./MCAL/Timer_0/Timer_0_Program.o
+ .data          0x00800060        0x0 ./MCAL/GIE/GIE_Program.o
+ .data          0x00800060        0x0 ./MCAL/Ext_Int/Ext_Int_Program.o
+ .data          0x00800060        0x0 ./MCAL/DIO/Dio_Program.o
+ .data          0x00800060        0x0 ./MCAL/ADC/ADC_Program.o
+ .data          0x00800060        0x0 ./HAL/TempSensor/TempSensor_Program.o
+ .data          0x00800060        0x0 ./HAL/Ssd/Ssd_Program.o
+ .data          0x00800060        0x0 ./HAL/PushButton/PushButton_Program.o
+ .data          0x00800060        0x0 ./HAL/LED/led_program.o
+ .data          0x00800060        0x0 ./HAL/LCD/Lcd_Program.o
+ .data          0x00800060        0x0 ./HAL/KeyPad/KeyPad_Program.o
+ .data          0x00800060        0x0 ./HAL/BUZZER/Buz_program.o
+ .data          0x00800060        0x0 ./APP/main.o
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.C.0.1278
+                0x00800060       0x10 ./HAL/KeyPad/KeyPad_Program.o
+ *(.gnu.linkonce.d*)
+                0x00800070                . = ALIGN (0x2)
+                0x00800070                _edata = .
+                0x00800070                PROVIDE (__data_end, .)
+
+.bss            0x00800070       0x19
+                0x00800070                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800070        0x0 ./MCAL/Timer_1/Timer_1_Program.o
+ .bss           0x00800070        0x0 ./MCAL/Timer_0/Timer_0_Program.o
+ .bss           0x00800070        0x0 ./MCAL/GIE/GIE_Program.o
+ .bss           0x00800070        0x0 ./MCAL/Ext_Int/Ext_Int_Program.o
+ .bss           0x00800070        0x0 ./MCAL/DIO/Dio_Program.o
+ .bss           0x00800070        0x0 ./MCAL/ADC/ADC_Program.o
+ .bss           0x00800070        0x0 ./HAL/TempSensor/TempSensor_Program.o
+ .bss           0x00800070        0x0 ./HAL/Ssd/Ssd_Program.o
+ .bss           0x00800070        0x0 ./HAL/PushButton/PushButton_Program.o
+ .bss           0x00800070        0x0 ./HAL/LED/led_program.o
+ .bss           0x00800070        0x0 ./HAL/LCD/Lcd_Program.o
+ .bss           0x00800070        0x0 ./HAL/KeyPad/KeyPad_Program.o
+ .bss           0x00800070        0x0 ./HAL/BUZZER/Buz_program.o
+ .bss           0x00800070        0x0 ./APP/main.o
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800070        0x0 d:/nti july 2022/avr/programs/s-w/sw/sw/sdk_win_64/sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ *(.bss*)
+ .bss.Timer_1_ICU_CallBack
+                0x00800070        0x2 ./MCAL/Timer_1/Timer_1_Program.o
+ .bss.Timer_0_u32_NumOfOverFlows
+                0x00800072        0x4 ./MCAL/Timer_0/Timer_0_Program.o
+                0x00800072                Timer_0_u32_NumOfOverFlows
+ .bss.Timer_0_u32_NumOfComMatch
+                0x00800076        0x4 ./MCAL/Timer_0/Timer_0_Program.o
+                0x00800076                Timer_0_u32_NumOfComMatch
+ .bss.Timer_0_u8_rem_Ticks
+                0x0080007a        0x1 ./MCAL/Timer_0/Timer_0_Program.o
+                0x0080007a                Timer_0_u8_rem_Ticks
+ .bss.Timer_0_CallBack
+                0x0080007b        0x4 ./MCAL/Timer_0/Timer_0_Program.o
+                0x0080007b                Timer_0_CallBack
+ .bss.Local_u32_Counter.1456
+                0x0080007f        0x4 ./MCAL/Timer_0/Timer_0_Program.o
+ .bss.Local_u32_Counter.1443
+                0x00800083        0x4 ./MCAL/Timer_0/Timer_0_Program.o
+ *(COMMON)
+ COMMON         0x00800087        0x2 ./MCAL/Ext_Int/Ext_Int_Program.o
+                0x00800087                Ext_Int_Callback
+                0x00800089                PROVIDE (__bss_end, .)
+                0x0000152e                __data_load_start = LOADADDR (.data)
+                0x0000153e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800089        0x0
+                0x00800089                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800089                PROVIDE (__noinit_end, .)
+                0x00800089                _end = .
+                0x00800089                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x3930
+ *(.stab)
+ .stab          0x00000000      0x558 ./MCAL/Timer_1/Timer_1_Program.o
+ .stab          0x00000558      0x540 ./MCAL/Timer_0/Timer_0_Program.o
+                                0x774 (size before relaxing)
+ .stab          0x00000a98      0x15c ./MCAL/GIE/GIE_Program.o
+                                0x1d4 (size before relaxing)
+ .stab          0x00000bf4      0x264 ./MCAL/Ext_Int/Ext_Int_Program.o
+                                0x498 (size before relaxing)
+ .stab          0x00000e58      0x414 ./MCAL/DIO/Dio_Program.o
+                                0x48c (size before relaxing)
+ .stab          0x0000126c      0x204 ./MCAL/ADC/ADC_Program.o
+                                0x27c (size before relaxing)
+ .stab          0x00001470      0x15c ./HAL/TempSensor/TempSensor_Program.o
+                                0x1d4 (size before relaxing)
+ .stab          0x000015cc      0x780 ./HAL/Ssd/Ssd_Program.o
+                                0x978 (size before relaxing)
+ .stab          0x00001d4c      0x4e0 ./HAL/PushButton/PushButton_Program.o
+                                0x6e4 (size before relaxing)
+ .stab          0x0000222c      0x5f4 ./HAL/LED/led_program.o
+                                0x804 (size before relaxing)
+ .stab          0x00002820      0x66c ./HAL/LCD/Lcd_Program.o
+                                0x87c (size before relaxing)
+ .stab          0x00002e8c      0x3cc ./HAL/KeyPad/KeyPad_Program.o
+                                0x5d0 (size before relaxing)
+ .stab          0x00003258      0x4d4 ./HAL/BUZZER/Buz_program.o
+                                0x6e4 (size before relaxing)
+ .stab          0x0000372c      0x204 ./APP/main.o
+                                0x438 (size before relaxing)
+
+.stabstr        0x00000000     0x1b17
+ *(.stabstr)
+ .stabstr       0x00000000     0x1b17 ./MCAL/Timer_1/Timer_1_Program.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(lec2.elf elf32-avr)
+LOAD linker stubs

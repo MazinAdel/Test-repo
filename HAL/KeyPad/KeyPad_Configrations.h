@@ -1,0 +1,24 @@
+/*
+ * KeyPad_Configrations.h
+ *
+ *  Created on: Aug 17, 2022
+ *      Author: Mazin
+ */
+
+#ifndef HAL_KEYPAD_KEYPAD_CONFIGRATIONS_H_
+#define HAL_KEYPAD_KEYPAD_CONFIGRATIONS_H_
+
+
+#define KEYPAD_ROW_0_PIN	PB4_PIN
+#define KEYPAD_ROW_1_PIN	PB5_PIN
+#define KEYPAD_ROW_2_PIN	PB6_PIN
+#define KEYPAD_ROW_3_PIN	PB7_PIN
+
+#define KEYPAD_COL_0_PIN	PD2_PIN
+#define KEYPAD_COL_1_PIN	PD3_PIN
+#define KEYPAD_COL_2_PIN	PD4_PIN
+#define KEYPAD_COL_3_PIN	PD5_PIN
+
+
+
+#endif /* HAL_KEYPAD_KEYPAD_CONFIGRATIONS_H_ */
