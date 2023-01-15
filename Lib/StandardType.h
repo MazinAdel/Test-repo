@@ -23,3 +23,9 @@ typedef double                   f64;
 
 
 #endif /* STANDARDTYPE_H_ */
+
+
+
+
+
+//check git
